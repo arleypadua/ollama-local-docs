@@ -1,0 +1,13 @@
+### Upload a file
+# POST http://localhost:5353/upload
+# disabled as not supported instead use:
+
+# curl -X POST -F 'file=@/path/to/document.pdf' http://localhost:5353/upload
+
+### Update the local vector store
+
+POST http://localhost:5353/store/update
+
+### Query something
+
+GET http://localhost:5353/query?q=what do you know? summarize in max 20 words

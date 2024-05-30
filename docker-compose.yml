@@ -1,0 +1,9 @@
+services:
+  ollama-private-files-api:
+    build:
+      context: ./src
+    ports:
+      - "5353:5353"
+    volumes:
+      - ./src:/app
+    command: python api.py

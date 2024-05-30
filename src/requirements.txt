@@ -1,0 +1,16 @@
+langchain==0.2.1
+gpt4all==2.6.0
+#https://files.pythonhosted.org/packages/de/bf/68645d6c086d63477464262deb29be284b8236d147c28f73b422300c3774/gpt4all-2.6.0-py3-none-win_amd64.whl
+chromadb==0.4.8
+llama-cpp-python==0.1.83
+urllib3==2.0.5
+PyMuPDF==1.24.0
+python-dotenv==1.0.1
+unstructured==0.11.0
+extract-msg==0.45.1
+tabulate==0.9.1
+pandoc==2.14
+pypandoc==1.12
+tqdm==4.67.0
+sentence_transformers==2.2.3
+Flask==3.0.4
